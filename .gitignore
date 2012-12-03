@@ -2,7 +2,11 @@
 
 # C extensions
 *.so
-
+*.o
+*.lo
+*.la
+*.al
+*.so.[0-9]*
 # Packages
 *.egg
 *.egg-info
@@ -33,3 +37,17 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# VirtualEnv
+venv
+
+#Django
+*.sqlite
+#Mac
+*DS_Store
+*.rej
+#Vim
+*.sw*
+*.un*
+*~
+
